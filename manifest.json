@@ -1,0 +1,11 @@
+{
+  "name": "Cangjie",
+  "publisher": "Cangjie Community",
+  "version": "0.1.0",
+  "displayName": "Cangjie Language Support",
+  "description": "Cangjie (仓颉) language support for Zed editor - syntax highlighting, LSP, debugging",
+  "categories": ["Programming Languages"],
+  "engines": {
+    "zed": ">=0.100.0"
+  }
+}

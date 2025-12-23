@@ -1,0 +1,33 @@
+# Rust
+target/
+Cargo.lock
+*.rs.bk
+
+# Zed extension build artifacts
+extension.wasm
+grammars/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local env files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Claude
+.claude/

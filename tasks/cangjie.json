@@ -1,0 +1,102 @@
+[
+  {
+    "label": "Cangjie: Build",
+    "command": "cjpm",
+    "args": ["build"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "build"]
+  },
+  {
+    "label": "Cangjie: Build Release",
+    "command": "cjpm",
+    "args": ["build", "--release"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "build", "release"]
+  },
+  {
+    "label": "Cangjie: Run",
+    "command": "cjpm",
+    "args": ["run"],
+    "env": {},
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "run"]
+  },
+  {
+    "label": "Cangjie: Test",
+    "command": "cjpm",
+    "args": ["test"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "test"]
+  },
+  {
+    "label": "Cangjie: Clean",
+    "command": "cjpm",
+    "args": ["clean"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "clean"]
+  },
+  {
+    "label": "Cangjie: Format",
+    "command": "cjfmt",
+    "args": ["-w", "$ZED_FILE"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "on_problem",
+    "tags": ["cangjie", "format"]
+  },
+  {
+    "label": "Cangjie: Lint",
+    "command": "cjlint",
+    "args": ["$ZED_FILE"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "lint"]
+  },
+  {
+    "label": "Cangjie: Check",
+    "command": "cjpm",
+    "args": ["check"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "check"]
+  },
+  {
+    "label": "Cangjie: Init Project",
+    "command": "cjpm",
+    "args": ["init", "$ZED_WORKTREE_ROOT"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "init"]
+  },
+  {
+    "label": "Cangjie: Update Dependencies",
+    "command": "cjpm",
+    "args": ["update"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "tags": ["cangjie", "update"]
+  }
+]
